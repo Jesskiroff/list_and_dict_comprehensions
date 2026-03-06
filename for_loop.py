@@ -30,3 +30,16 @@ for number in numbers:
 # >>> nums_list_times_two = [n * 2 for n in nums_list]
 # >>> print(nums_list_times_two)
 
+# > names = ["Alex", "Max", "Josh", "Jason", "Claire", "dave\
+# "]
+# >>> print(names)
+# ['Alex', 'Max', 'Josh', 'Jason', 'Claire', 'dave']
+# >>> short_names = [name for name in names if len(name) <5]
+# >>> print(short_names)
+# ['Alex', 'Max', 'Josh', 'dave']
+# >>> 
+
+# Something to return for item in list w more than 5 chars in caps 
+
+# >>> cap_names = [name.upper() for name in names if len(name) > 5]
+# >>> print(cap_names)
