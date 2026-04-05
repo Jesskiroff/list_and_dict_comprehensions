@@ -45,9 +45,12 @@ for number in numbers:
 # >>> print(cap_names)
 
 
-names = ['Alex', 'Beth', 'Caroline', 'Dave', 'Eleanor', 'Freddie']
+# names = ['Alex', 'Beth', 'Caroline', 'Dave', 'Eleanor', 'Freddie']
 import random
-student_scores = {student:random.randint(1,100) for student in names}
-print(student_scores)
+# student_scores = {student:random.randint(1,100) for student in names}
+# print(student_scores)
 # {'Alex': 66, 'Beth': 15, 'Caroline': 10, 'Dave': 60, 'Eleanor': 11, 'Freddie': 83}
 
+games = ['monolpoly', 'monopoly deal', 'bananagram', 'katan']
+highest_bid ={which_game:random.randint(1,5) for which_game in games}
+print(highest_bid)
